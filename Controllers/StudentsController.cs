@@ -66,7 +66,7 @@ namespace SchoolManagement.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Student student = db.Students.FindAsync(id);
+            Student student = await db.Students.FindAsync(id);
             if (student == null)
             {
                 return HttpNotFound();

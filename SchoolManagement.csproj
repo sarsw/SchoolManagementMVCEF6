@@ -217,6 +217,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\Images\backToSchool.jpg" />
+    <Content Include="Content\Images\learningTools.jpeg" />
+    <Content Include="Content\Images\neverStopLearning.png" />
     <Content Include="Models\SchoolManagementDBModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>SchoolManagementDBModel.edmx</DependentUpon>
